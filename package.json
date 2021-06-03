@@ -2,13 +2,20 @@
   "name": "TODO-Webpack",
   "version": "1.0.0",
   "description": "Get vanillaJs apps written with modern tools",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "babel": {
+		"presets": [
+			"@babel/preset-env"
+		]
+	},
+	"browserslist": "> 0.25%, not dead",
+	"scripts": {
+		"start": "webpack serve --open",
+		"build": "webpack",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
   "keywords": [],
-  "author": "MehulKC",
-  "license": "ISC",
+  "author": "Mehul Kiran Chaudhari",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
