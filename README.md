@@ -50,6 +50,12 @@ To clone a specific subdirectory instead of the entire repo, just add it to the 
 ```bash
 degit user/repo/subdirectory
 ```
+## After cloning the repo
+```cd my-new-project
+```
+Then Install dependencies
+```npm intall
+```
 
 # Features
 
@@ -60,11 +66,10 @@ degit user/repo/subdirectory
 * Code splitting 
 * Caching 
 * Dev server
+* Eslint (add rules you want in `.eslintrc` file)
 
 # Example
-
-
-
+making it.
 
 ## License
 
