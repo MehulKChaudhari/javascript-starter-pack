@@ -51,10 +51,12 @@ To clone a specific subdirectory instead of the entire repo, just add it to the 
 degit user/repo/subdirectory
 ```
 ## After cloning the repo
-```cd my-new-project
+```bash
+  cd my-new-project
 ```
 Then Install dependencies
-```npm intall
+```bash
+  npm install
 ```
 
 # Features
