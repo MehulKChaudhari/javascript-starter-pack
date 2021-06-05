@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const ESLintPlugin = require('eslint-webpack-plugin');
 const path = require("path");
 
 const webpackConfig = {
@@ -38,6 +39,7 @@ const webpackConfig = {
       title: "Your Project Name Here",
       template: path.resolve(__dirname, "src", "index.html"),
     }),
+    new ESLintPlugin()
   ],
   optimization: {
     splitChunks: {

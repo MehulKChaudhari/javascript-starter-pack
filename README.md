@@ -64,3 +64,10 @@ degit user/repo/subdirectory
 * Dev server
 
 # Example
+
+
+
+
+## License
+
+[MIT](LICENSE).
