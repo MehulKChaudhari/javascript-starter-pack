@@ -59,6 +59,8 @@ Then Install dependencies:
   npm install
 ```
 
+You are ready to build your vanillaJs app
+
 # Features
 
 * Babel loader
