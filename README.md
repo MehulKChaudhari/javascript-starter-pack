@@ -54,7 +54,7 @@ degit user/repo/subdirectory
 ```bash
   cd my-new-project
 ```
-Then Install dependencies
+Then Install dependencies:
 ```bash
   npm install
 ```
