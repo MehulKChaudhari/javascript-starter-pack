@@ -1,0 +1,14 @@
+[
+	{
+		"action": "clone",
+		"src": "user/another-repo"
+	},
+    {
+		"action": "remove",
+		"files": ["LICENSE"]
+	},
+    {
+		"action": "npm install",
+		"files": ["package.json"]
+	}
+]
