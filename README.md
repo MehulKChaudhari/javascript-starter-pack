@@ -38,7 +38,7 @@ degit user/repo my-new-project
 To clone a specific subdirectory instead of the entire repo, just add it to the argument:
 
 ```bash
-degit user/repo/subdirectory
+degit mehulkchaudhari/javascript-starter-pack/subdirectory
 ```
 ## After cloning the repo
 ```bash
