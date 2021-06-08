@@ -6,9 +6,5 @@
 	{
 		"action": "remove",
 		"files": ["LICENSE"]
-	},
-	{
-		"action": "npm install",
-		"files": ["package.json"]
 	}
 ]
