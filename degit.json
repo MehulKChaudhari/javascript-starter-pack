@@ -2,17 +2,13 @@
 	{
 		"action": "clone",
 		"src": "mehulkchaudhari/javascript-starter-pack"
-	}
-],
-[
-	 {
+	},
+	{
 		"action": "remove",
 		"files": ["LICENSE"]
-	}
-],
-[
+	},
 	{
 		"action": "npm install",
-		"files": ["package-lock.json"]
+		"files": ["package.json"]
 	}
 ]
