@@ -52,7 +52,14 @@ Then remove author git and initialise your own:
 ```bash
   rm -rf .git && git init
 ```
-
+To run the development server:
+```bash
+  npm run start
+```
+To build production files:
+```bash
+  npm run build
+```
 You are ready to build your vanillaJs app
 
 # Features
