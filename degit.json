@@ -1,7 +1,7 @@
 [
 	{
 		"action": "clone",
-		"src": "user/another-repo"
+		"src": "mehulkchaudhari/javascript-starter-pack"
 	},
     {
 		"action": "remove",
