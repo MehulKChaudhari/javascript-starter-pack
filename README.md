@@ -58,6 +58,10 @@ Then Install dependencies:
 ```bash
   npm install
 ```
+Then remove author git and initialise your own:
+```bash
+  rm -rf .git && git init
+```
 
 You are ready to build your vanillaJs app
 
