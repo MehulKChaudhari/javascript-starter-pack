@@ -50,6 +50,16 @@ To clone a specific subdirectory instead of the entire repo, just add it to the 
 ```bash
 degit user/repo/subdirectory
 ```
+## After cloning the repo
+```bash
+  cd my-new-project
+```
+Then Install dependencies:
+```bash
+  npm install
+```
+
+You are ready to build your vanillaJs app
 
 # Features
 
@@ -60,11 +70,10 @@ degit user/repo/subdirectory
 * Code splitting 
 * Caching 
 * Dev server
+* Eslint (add rules you want in `.eslintrc` file)
 
 # Example
-
-
-
+making it.
 
 ## License
 
