@@ -25,16 +25,6 @@ degit https://github.com/MehulKChaudhari/javascript-starter-pack.git
 ```
 
 
-### Specify a tag, branch or commit
-
-The default branch is `master`.
-
-```bash
-degit user/repo#dev       # branch
-degit user/repo#v1.2.3    # release tag
-degit user/repo#1234abcd  # commit hash
-````
-
 ### Create a new folder for the project
 
 If the second argument is omitted, the repo will be cloned to the current directory.
